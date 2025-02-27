@@ -12,7 +12,7 @@ function App() {
             <p className="text-gray-500">To your movie app.</p>
           </div>
           <div>
-            <button type="button">
+            <button type="button" onClick={() => setAuthenticated(true)}>
               Login
             </button>
           </div>
